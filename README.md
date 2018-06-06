@@ -11,3 +11,5 @@ To enable none root user for kubectl CLI:
     mkdir -p $HOME/.kube
     sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
     sudo chown $(id -u):$(id -g) $HOME/.kube/config
+    
+For Kubernetes support networking, please refer to: https://kubernetes.io/docs/concepts/cluster-administration/networking/
