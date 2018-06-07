@@ -4,4 +4,4 @@ cp -f /etc/kubernetes/admin.conf $HOME/.kube/config
 chown $(id -u):$(id -g) $HOME/.kube/config
 kubectl apply -f $HOME/kube-configuration/networks/rbac-kdd.yaml
 kubectl apply -f $HOME/kube-configuration/networks/calico.yaml
-kubectl create -f $HOME/kube-configuration/networks/kubernets-dashboard.yaml
+kubectl create -f $HOME/kube-configuration/networks/kubernetes-dashboard.yaml
